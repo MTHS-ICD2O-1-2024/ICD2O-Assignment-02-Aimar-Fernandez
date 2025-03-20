@@ -7,7 +7,7 @@
 function myButtonClicked() {
   const length = document.getElementById("length").value
   const width = document.getElementById("width").value
-  const depth = document.getElementById("depth").value
+  const height = document.getElementById("height").value
   document.getElementById("answer").innerHTML = 
-    "The volume is: " + (length*width*depth)
+    "The volume is: " + (length*width*height) + " cm³"
 }
